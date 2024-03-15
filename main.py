@@ -150,6 +150,10 @@ def generate_duck_page(language_name):
     
     # Write the content to a Markdown file
     file_name = f"{language_name.replace(' ', '_')}_duck.md"
+
+    if file_name == 'C#_duck.md':
+        file_name = 'C_sharp_duck.md'
+
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)
 
