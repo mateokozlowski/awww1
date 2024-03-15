@@ -70,5 +70,5 @@ Here are the top 10 programming languages as ranked by the TIOBE index, along wi
 - Current Rank: 10
 - Previous Year Rank: 6
 - Highest Ranking Ever: #7
-- DuckDuckGo Insights: [What does DuckDuckGo say about Visual Basic?](./Visual Basic_duck.md)
+- DuckDuckGo Insights: [What does DuckDuckGo say about Visual_Basic?](./Visual_Basic_duck.md)
 

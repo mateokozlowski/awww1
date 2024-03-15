@@ -80,6 +80,9 @@ def generate_list_page(soup):
 
         if language['name'] == 'C#':
             language['name'] = 'C_sharp'
+
+        if language['name'] == 'Visual Basic':
+            language['name'] = 'Visual_Basic'
         
         # Add a line for DuckDuckGo insights with a hyperlink
         content += f"- DuckDuckGo Insights: [What does DuckDuckGo say about {language['name']}?](./{language['name']}_duck.md)\n\n"
@@ -156,6 +159,9 @@ def generate_duck_page(language_name):
 
     if file_name == 'C#_duck.md':
         file_name = 'C_sharp_duck.md'
+
+    if file_name == 'Visual Basic_duck.md':
+        file_name = 'Visual_Basic_duck.md'
 
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)
