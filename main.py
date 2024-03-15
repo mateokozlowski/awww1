@@ -77,6 +77,9 @@ def generate_list_page(soup):
         highest_place = language['highest_place']
         highest_place_text = "No data" if highest_place == 'No data' else f"#{highest_place}"
         content += f"- Highest Ranking Ever: {highest_place_text}\n"
+
+        if language['name'] == 'C#':
+            language['name'] = 'C_sharp'
         
         # Add a line for DuckDuckGo insights with a hyperlink
         content += f"- DuckDuckGo Insights: [What does DuckDuckGo say about {language['name']}?](./{language['name']}_duck.md)\n\n"

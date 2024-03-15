@@ -35,7 +35,7 @@ Here are the top 10 programming languages as ranked by the TIOBE index, along wi
 - Current Rank: 5
 - Previous Year Rank: 5
 - Highest Ranking Ever: #5
-- DuckDuckGo Insights: [What does DuckDuckGo say about C#?](./C#_duck.md)
+- DuckDuckGo Insights: [What does DuckDuckGo say about C_sharp?](./C_sharp_duck.md)
 
 ## 6. JavaScript
 
